@@ -4,11 +4,10 @@
 
 # Req Gems
 require 'rubygems'
-require 'date'
 require 'json'
 require 'open-uri'
 require 'csv'
-require 'date'
+
 
 def read(url)
  file_name = url.to_s[/(\w*-*)\w*.csv$/]
