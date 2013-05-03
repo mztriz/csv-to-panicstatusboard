@@ -52,6 +52,7 @@ Requirements
 * Ruby 2.0.0p0 -- This may work with other versions of Ruby but I haven't tested it
 * rubygems
 * json gem
+* cURL -- Needed for [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader)
 
 Installation
 ----
