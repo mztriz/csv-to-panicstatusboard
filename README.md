@@ -6,7 +6,7 @@ Developed for `Linux` -- but can be easily adapted to `Windows` or `OS X` by com
 
 How does it work?
 ----
-`csv-to-json.rb` takes in a file from the web, attemps to convert it to JSON and uploads the file to your Dropbox account with andreafabrizi's [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader) bash script.
+`csv-to-json.rb` is a Ruby program that takes in a file from the web, attemps to convert it to JSON and uploads the file to your Dropbox account with andreafabrizi's [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader) BASH script.
 
 Sample conversion
 ----
