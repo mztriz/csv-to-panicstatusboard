@@ -52,6 +52,7 @@ def csv_to_json(data, title, datasequences, file_name)
   index +=1 
   graph[:datasequences] << sequence
  end
+ # Write the file to disk
  File.open("#{file_name}.json", "w") do |f|
   wrapper = Hash.new
   wrapper[:graph] = graph
