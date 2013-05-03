@@ -5,6 +5,6 @@ Convert a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) file to [JS
 
 How does it work?
 ----
-`csv-to-json.sh` takes in a file from the web, attemps to convert it to JSON and uploads the file to your Dropbox account with andreafabrizi's [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader) bash script.
+`csv-to-json.rb` takes in a file from the web, attemps to convert it to JSON and uploads the file to your Dropbox account with andreafabrizi's [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader) bash script.
 
 
