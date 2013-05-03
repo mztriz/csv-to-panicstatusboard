@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # Takes in a CSV file and converts to JSON with custom attributes for Panic Status Board
 # Put script in a cronjob to have it rewrite the file to Dropbox every N times
-# Linux only ATM
 
 # Req Gems
 require 'rubygems'
