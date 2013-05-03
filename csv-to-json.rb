@@ -67,5 +67,6 @@ def upload_to_dropbox(file_name)
  system "bash dropbox_uploader.sh share #{file_name}.json > /dev/null"
 end
 
+# Add the weblinks to your CSV files here
 read("https://www.example.com/file1.csv")
-read("https://www.example.com/file2.csv")
+read("https://dl.dropbox.com/s/5555555/file2.csv")
