@@ -55,7 +55,7 @@ Requirements
 
 Installation
 ----
-Copy this repository  
+Clone this repository  
 `git clone https://github.com/mztriz/csv-to-json.git`
 
 Edit `csv-to-json.rb` with your favorite editor and put your CSV Dropbox links into the script
