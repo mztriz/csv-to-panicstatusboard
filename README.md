@@ -2,7 +2,7 @@ csv-to-json
 ===========
 
 Convert a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) file to [JSON](http://en.wikipedia.org/wiki/JSON) with attributes for [Panic Status Board](http://panic.com/statusboard/).
-Developed for Linux -- but can be adapted to Windows without the Dropbox upload functionality. 
+Developed for `Linux` -- but can be adapted to `Windows` or `OS X` without the Dropbox upload functionality. 
 
 How does it work?
 ----
