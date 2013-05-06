@@ -30,7 +30,7 @@ end
 
 def csv_to_json(data, title, datasequences, file_name)
   # Graph Config
-  colors = %w[yellow green red purple blue mediumGray, pink, aqua, orange, lightGray]
+  colors = %w[yellow green red purple blue mediumGray pink aqua orange lightGray]
   graph = Hash.new
   graph[:title] = title
   # Set the type of graph to be shown
