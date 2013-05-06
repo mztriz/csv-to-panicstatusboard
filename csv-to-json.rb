@@ -35,8 +35,8 @@ def csv_to_json(data, title, datasequences, file_name)
   graph[:title] = title
   # Set the type of graph to be shown
   graph[:type] = 'bar'
-  index = 0
   graph[:datasequences] = Array.new(0)
+  index = 0
   datasequences.each do |seq_title|
    sequence = Hash.new(0)
    sequence[:title] = seq_title
