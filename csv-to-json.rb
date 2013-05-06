@@ -1,6 +1,20 @@
 #!/usr/bin/env ruby
-# Takes in a CSV file and converts to JSON with custom attributes for Panic Status Board
-# Put script in a cronjob to have it rewrite the file to Dropbox every N times
+#
+# mztriz@gmail.com
+# csv-to-json.rb
+#
+# Author: Ava Gailliot
+#
+# mztriz$ ruby csv-to-json.rb
+# [*] Automated CSV to JSON conversion with attributes for Panic Status Board                   
+# [*] Author: Ava Gailliot                   
+#                                            
+# ######################################################################## 100.0%
+# https://www.dropbox.com/s/sdfsdf/file1.csv.json
+# ######################################################################## 100.0%
+# https://dl.dropbox.com/s/5555555/file2.csv.json                      
+#             
+
 
 # Req Gems
 require 'rubygems'
