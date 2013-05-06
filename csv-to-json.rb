@@ -6,6 +6,7 @@
 # Author: Ava Gailliot
 #
 # mztriz$ ruby csv-to-json.rb
+#
 # [*] Automated CSV to JSON conversion with attributes for Panic Status Board                   
 # [*] Author: Ava Gailliot                   
 #                                            
@@ -14,7 +15,7 @@
 # ######################################################################## 100.0%
 # https://dl.dropbox.com/s/5555555/file2.csv.json                      
 #             
-
+# GNU General Public License: http://www.gnu.org/licenses/gpl.html
 
 # Req Gems
 require 'rubygems'
