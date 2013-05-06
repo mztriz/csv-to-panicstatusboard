@@ -66,7 +66,7 @@ Run
 
 `ruby csv-to-json.rb`
 
-Add it to your crontab to have it refresh the data from  your Dropbox file every N times.
+Add it to your [Crontab](http://en.wikipedia.org/wiki/Crontab) to have it refresh the data from  your Dropbox file every N times.
 
 Enjoy!
 
