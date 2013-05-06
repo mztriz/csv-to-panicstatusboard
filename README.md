@@ -56,17 +56,16 @@ Requirements
 
 Installation
 ----
-Clone this repository  
+**Clone this repository**:
 `git clone https://github.com/mztriz/csv-to-json.git`
 
-Edit `csv-to-json.rb` with your favorite editor and put your CSV Dropbox links into the script
+**Edit**: `csv-to-json.rb` with your favorite editor and put your CSV Dropbox links into the script
 `read("http://dl.dropbox.com/s/i4ml33t-n0t/sexy-data.csv")`
 
-Run
-
+**Run**:
 `ruby csv-to-json.rb`
 
 Add it to your [Crontab](http://en.wikipedia.org/wiki/Crontab) to have it refresh the data from  your Dropbox file every N times.
 
-Enjoy!
+**Enjoy!**
 
