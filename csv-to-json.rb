@@ -3,8 +3,6 @@
 # mztriz@gmail.com
 # csv-to-json.rb
 #
-# Author: Ava Gailliot
-#
 # mztriz$ ruby csv-to-json.rb
 #
 # [*] Automated CSV to JSON conversion with attributes for Panic Status Board                   
