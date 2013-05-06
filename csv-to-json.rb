@@ -43,7 +43,7 @@ def csv_to_json(data, title, datasequences, file_name)
    sequence_data = Array.new(0)
    data.each do |key, value|
    val = value[seq_title]
-   sequence_data << { :title => key, :value => val }
+   sequence_data << { :title => key.to_s, :value => val }
   end
   sequence[:datapoints] = sequence_data
   sequence[:color] = colors[index]
