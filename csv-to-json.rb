@@ -74,8 +74,8 @@ end
 
 def upload_to_dropbox(file_name)
  # Shell out and do a fancy bash dropbox upload
- system "bash dropbox_uploader.sh upload #{file_name}.json > /dev/null"
- system "bash dropbox_uploader.sh share #{file_name}.json > /dev/null"
+ system "bash #{Dir.pwd}/dropbox_uploader.sh upload #{file_name}.json > /dev/null"
+ system "bash #{Dir.pwd}/dropbox_uploader.sh share #{file_name}.json > /dev/null"
 end
 
 # Add the weblinks to your CSV files here
