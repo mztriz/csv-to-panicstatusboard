@@ -56,7 +56,7 @@ def csv_to_json(data, title, datasequences, file_name)
   wrapper[:graph] = graph
   f.write wrapper.to_json
   end
-  upload_to_dropbox(file_name)
+  upload_to_dropbox(file_name) #Comment out this line below for Windows compatability
 end
 
 def upload_to_dropbox(file_name)
