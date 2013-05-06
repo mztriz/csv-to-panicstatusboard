@@ -24,7 +24,7 @@ def read(url)
  end
  # Make the title pretty by getting rid of the underscores and capitalizing each word
  title = title.to_s.gsub!(/_/, ' ').split(" ").map(&:capitalize).join(" ")
- data_seq = data_seq.first
+ data_seq = data_seq.first # Only need the first array
  csv_to_json(hash, title, data_seq, file_name)
 end
 
