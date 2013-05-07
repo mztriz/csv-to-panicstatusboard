@@ -1,4 +1,4 @@
-csv-to-json
+csv-to-panicstatusboard
 ===========
 
 Convert a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) file to [JSON](http://en.wikipedia.org/wiki/JSON) with attributes for [Panic Status Board](http://panic.com/statusboard/).
