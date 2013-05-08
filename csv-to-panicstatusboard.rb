@@ -13,7 +13,7 @@
 # ######################################################################## 100.0%
 # https://dl.dropbox.com/s/5555555/file2.csv.json                      
 #             
-# GNU General Public License: http://www.gnu.org/licenses/gpl.html
+# Creative Commons Attribution-ShareAlike License: http://creativecommons.org/licenses/by-sa/3.0/
 
 # Req Gems
 require 'rubygems'
