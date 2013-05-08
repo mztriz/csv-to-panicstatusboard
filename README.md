@@ -69,3 +69,10 @@ Add it to your [Crontab](http://en.wikipedia.org/wiki/Crontab) to have it refres
 
 **Enjoy!**
 
+License Information
+---
+
+The contents of this repository are released under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+
+See http://creativecommons.org/licenses/by-sa/3.0/ for more information.
+
