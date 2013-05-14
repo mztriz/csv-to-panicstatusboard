@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 #
 # mztriz@gmail.com
-# csv-to-json.rb
+# csv-to-panicstatusboard.rb
 #
-# mztriz$ ruby csv-to-json.rb
+# mztriz$ ruby csv-to-panicstatusboard.rb
 #
 # [*] Automated CSV to JSON conversion with attributes for Panic Status Board                   
 # [*] Author: Ava Gailliot                   
