@@ -35,6 +35,7 @@ def read(url)
    # Generate hash from CSV data
    hash[line.fields[0]] = Hash[line.headers[1..-1].zip(line.fields[1..-1])]
  end
+  
   # Try-Catch for title string manipulation 
  begin
   # Make the title pretty by getting rid of the underscores and capitalizing each word
