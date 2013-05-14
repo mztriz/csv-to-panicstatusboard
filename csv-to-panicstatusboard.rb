@@ -35,8 +35,14 @@ def read(url)
    # Generate hash from CSV data
    hash[line.fields[0]] = Hash[line.headers[1..-1].zip(line.fields[1..-1])]
  end
- # Make the title pretty by getting rid of the underscores and capitalizing each word
- title = title.to_s.gsub!(/_/, ' ').split(" ").map(&:capitalize).join(" ")
+  # Try-Catch for title string manipulation 
+ begin
+  # Make the title pretty by getting rid of the underscores and capitalizing each word
+  title = title.to_s.gsub!(/_/, ' ').split(" ").map(&:capitalize).join(" ")
+ rescue
+  title = title.to_s
+ end
+ 
  data_seq = data_seq.first # Only need the first array
  csv_to_json(hash, title, data_seq, file_name)
 end
@@ -64,7 +70,7 @@ def csv_to_json(data, title, datasequences, file_name)
   graph[:datasequences] << sequence
  end
  # Write the file to disk
- File.open("#{file_name}.json", "w") do |f|
+ File.open("#{Dir.pwd}/#{file_name}.json", "w") do |f|
   wrapper = Hash.new
   wrapper[:graph] = graph
   f.write wrapper.to_json
