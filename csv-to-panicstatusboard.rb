@@ -23,7 +23,7 @@ require 'csv'
 
 
 def read(url)
- file_name = url.to_s[/(\w*-*)\w*.csv$/]
+ file_name = url.to_s[/(\w*-*)\w*.csv$/] + ".json"
  title = Array.new(0)
  data_seq = Array.new(0)
  hash = Hash.new(0)
@@ -71,7 +71,7 @@ def csv_to_json(data, title, datasequences, file_name)
   graph[:datasequences] << sequence
  end
  # Write the file to disk
- File.open("#{Dir.pwd}/#{file_name}.json", "w") do |f|
+ File.open("#{Dir.pwd}/#{file_name}", "w") do |f|
   wrapper = Hash.new
   wrapper[:graph] = graph
   f.write wrapper.to_json
@@ -81,8 +81,8 @@ end
 
 def upload_to_dropbox(file_name)
  # Shell out and do a fancy bash dropbox upload
- system "bash #{Dir.pwd}/dropbox_uploader.sh upload #{file_name}.json > /dev/null"
- system "bash #{Dir.pwd}/dropbox_uploader.sh share #{file_name}.json > /dev/null"
+ system "bash #{Dir.pwd}/dropbox_uploader.sh upload #{file_name} > /dev/null"
+ system "bash #{Dir.pwd}/dropbox_uploader.sh share #{file_name} > /dev/null"
 end
 
 # Add the weblinks to your CSV files here
